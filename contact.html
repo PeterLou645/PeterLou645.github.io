@@ -1,0 +1,77 @@
+<!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="contact">
+    <title> Contatcs </title>
+    <link rel = "icon" type="image/png" href="favicon.png" sizes="64x64">
+    <link rel= "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <style>
+        body {
+        background-image: url('279937.png');
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #000;
+        }
+        tex{
+          position: relative;
+          font-family: sans-serif;
+          text-transform: uppercase;
+          font-size: 2em;
+          letter-spacing: 4px;
+          overflow: hidden;
+          background: linear-gradient(90deg, #000, #fff, #000);
+          background-repeat: no-repeat;
+          background-size: 80%;
+          animation: animate 3s linear infinite;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        }
+        .center {
+        position:absolute;
+        height: 50px;
+        width: 50px;  
+        left:50%;
+        top: 50%;
+        }
+        .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+  @keyframes animate{
+    0% {
+    background-position: -500%;
+    }
+    100% {
+    background-position: 500%;
+    }
+    }
+
+
+    </style>
+    <body>
+        <div class = "sidebar">
+          <img src="LogoMakr_3zAlV5.png" alt="Trulli" width="50" height="50" style="position: relative; left: 35px;">
+          <ul>
+            <li><a href="index.html"><i class= "fas fa-home"></i>Home</a></li>
+            <li><a href="about.html"><i class= "fas fa-dragon"></i>About</a></li>
+            <li><a href="project.html"><i class= "fas fa-cat"></i>Projects</a></li>
+            <li><a href="logo.html"><i class= "fas fa-dog"></i>Logo</a></li>
+            <li><a href="contact.html"><i class= "fas fa-envelope"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class = "contacts">
+            <a href = "https://www.linkedin.com/in/peter-lou/" ><i class="glyphicon glyphicon-user"></i>Linkedin</a>
+            <a href = "https://www.facebook.com/peter.lou.923" ><br><i class="glyphicon glyphicon-thumbs-up"></i>Facebook</a>
+            <a href = "mailto:peterlou645@gmail.com?Subject=Hello!" target="_top"><br><i class="glyphicon glyphicon-envelope"></i>Email Me</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+basic html syntax
+close and open a paragraph
+<p> and then close </p> p is for paragraph tag
+<h> is for heading and you close use the / symble tag just like p
+<em> is for emphasis tag
+tag location is very important!!
+
+****************************************
+****************************************
+
+Html Structure
+Broad:
+Like a sandwich: two bread is need it, so you need a open and close html tag.
+first thing you need a doctype telling what type of html you are using
+then your html tag (html lang="en"), you close it with </html>
+<b>= bolded
+
+Detail:
+doctype: the first thing to write in your html file. is tells the system what type of html you are using( the one we need rightnow is htmls)
+head: place informaiont reference styles and other info about the htmls
+charset: setting what type of lanuage characters do you use
+Content models: they define the type of content expected inside an element and control syntax rules such as element nesting.
+
+
+
+
+////////////////////////////////////////////////////////
+QUiz review
+
+4.Functions and objects
+Functions : mini program in side our javascripts
+Ex: Function multiply(a,b){
+    var result = a*b;
+    console.log(result);
+    return result;
+}
+var multiply = multiply(3,4)
+It can either create a result immediately or provide answer or output
+3 functions:
+Named Functions: function to call when we need it and just pass reference into it
+ex: function foo(a,b){
+    methods
+}
+Anonymous functions: dont have name, they need to be tie to a variable
+ex: var a = 7;
+    var b = 8;
+    var biggervar = function(){
+        var result;
+        a>b ? result = ["a",a]: result = ["b", b];
+        console.log(result)
+    }
+    biggervar(); // since var have a function we can run the function by calling biggervar
+
+immediately invoked function expressions: Runs as soon the web encounters it.
+var biggervar = (function(a,b){
+        var result;
+        a>b ? result = ["a",a]: result = ["b", b];
+        console.log(result)
+    })(3,4)
+    biggervar; 
+    if there is define variables then the variable    
+console.log is loggoing the value
+ex: var x = 2;
+    console.log(2); //this will show up in in console page of the web
+
+variable scope:
+    global: varible outside the function
+    local: variable inside the function
+    you cannot call local variable outside the function, you can with global
+
+let and const
+ cons: constant, cannot be changed once is define
+ let: block scope variable, smaller scoope than var
+
+javascripts objects
+
+var course = new Object();
+
+var course = {
+    name = "Peter";
+    age = 4;
+    return name + age;
+}
+
+console.log(course)
+
+objects constructor
+
+function Course(title, name){
+    this.title = title;
+    this.name = name;
+}
+
+var course1 = new Course("c1", "name");
+
+dot and bracket notation 
+    dot ex: course.title
+    bracket ex: course["title] for things liek wp:image
+
+Closures  : a function inside a function for the inside function to work
+
+
+
+5. JavaScript and the DOM, part 1: changing DOM Elements
+
+DOM( document object model)
+DOM is the model of the document that creat the form of webpage
+
+Targeting elements in the DOM
